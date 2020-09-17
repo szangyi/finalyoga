@@ -132,7 +132,9 @@ nav {
     display: grid;
     justify-content: space-between;
     grid-template-columns: 1fr 3fr;
-    margin-bottom: 2vw;
+/*    margin-bottom: 2vw;*/
+    padding-bottom: 2vw;
+    border-bottom: 1px solid #EBE9E4;
 }
 
 nav ul {
