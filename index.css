@@ -21,7 +21,9 @@
     --color-8: #E1DFDA;
     --color-9: #AAAAAA;
     --color-10: #707070;
-    --color-10: #1E669A;
+    --color-11: #1E669A;
+    --color-12: #BAD3DB;
+    --color-13: #6C9CAC;
 
 
     --primary-font: 'Spartan', sans-serif;
@@ -43,15 +45,15 @@
     height: 100%;
     margin: 0 auto;
     position: relative;
-    padding-top:5vw;
+    padding-top: 5vw;
 
 }
 
 h5 {
-    font-family: 'Spartan', sans-serif;
+    font-family: var(--secondary-font);
     color: #AAAAAA;
     font-size: 15px;
-    padding-left: 1.5vw;
+/*    padding-left: 1.5vw;*/
 }
 
 h2 {
@@ -66,17 +68,17 @@ h1 {
     font-family: 'Spartan', sans-serif;
     color: #425A53;
     font-size: 50px;
-    padding: 1vw;
+    padding: 1vw 0;
     padding-bottom: 2vw;
 
 }
 
 
 p {
-    font-family: 'Spartan', sans-serif;
+    font-family: var(--secondary-font);
     color: #3E3E3E;
     font-size: 20px;
-    padding: 1vw;
+/*    padding: 1vw;*/
     padding-bottom: 5vw;
 
 
@@ -84,7 +86,7 @@ p {
 
 
 button {
-     background-color: none;
+    background-color: none;
     border: 0.8px solid;
     padding-top: 1vw;
     border-radius: 25px;
@@ -94,13 +96,23 @@ button {
     font-family: var(--primary-font);
     text-transform: uppercase;
     font-size: 1.1vw;
-    color: var(--color-11);
-
+    color: white;
+    background-color: #BAD3DB;
     border: none;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 
 }
+
+button:hover {
+    background-color: var(--color-13);
+}
+
+h1, h5, .abouttext {
+    text-align: left;
+}
+
+
 
 
 /*End global*/
@@ -163,8 +175,8 @@ nav a {
     align-items: center;
     text-align: center;
     height: 17vw;
-    padding-top:2vw;
-    padding-bottom:4vw;
+    padding-top: 2vw;
+    padding-bottom: 4vw;
 }
 
 
@@ -185,7 +197,7 @@ nav a {
 
 .poses .container {
     display: flex;
-    flex-direction:row-reverse;
+    flex-direction: row-reverse;
     padding-left: 3vw;
     align-items: center;
     justify-content: center;
@@ -196,12 +208,12 @@ nav a {
     flex: 1;
     margin-right: 10rem;
     margin-left: 6rem;
-    box-shadow: -20px 20px 0px 2px rgba(239,223,218,1);
+    box-shadow: -20px 20px 0px 2px rgba(239, 223, 218, 1);
 }
 
 
 
-.posesself_{
+.posesself_ {
 
     padding-left: 10vw;
     padding-right: 5vw;
@@ -226,7 +238,7 @@ nav a {
 }
 
 .box {
-   background-color: #Ebe9e4;
+    background-color: #Ebe9e4;
     color: green;
     border-radius: 10px;
     padding: 20px;
@@ -242,7 +254,7 @@ nav a {
 }
 
 
-icon-container{
+icon-container {
     padding-bottom: 40vw;
 }
 
@@ -263,12 +275,12 @@ icon-container{
     flex: 1;
     margin-right: 10rem;
     margin-left: 6rem;
-    box-shadow: -20px 20px 0px 2px rgba(239,223,218,1);
+    box-shadow: -20px 20px 0px 2px rgba(239, 223, 218, 1);
 }
 
-.poses_{
+.poses_ {
 
-    padding-right: 25vw;
+    padding-right: 15vw;
 }
 
 
@@ -287,15 +299,13 @@ footer {
     padding: 2vw;
     border-top-color: var(--color-8);
     justify-content: center;
+    height: 2vw;
 }
 
 footer > p {
-    font-family:'Spartan', sans-serif;
-    font-size: 1vw;
+    font-family: var(--primary-font);
+    font-size: 0.8vw;
 
 }
 
 /*End footer*/
-
-
-
