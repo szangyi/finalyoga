@@ -316,10 +316,20 @@ h6 {
 
 }
 
+a {
+    text-decoration: none;
+}
+
+button a:visited {
+    text-decoration: none;
+}
+
 .learnmore_button:hover {
+    text-decoration: none;
     background-color: #BAD3DB;
     color: white;
 }
+
 
 
 .p_style {
