@@ -1,0 +1,301 @@
+/*Start global*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --color-1: #FFFFFF;
+    --color-2: #F3F3F3;
+    --color-3: #292929;
+    --color-4: #7E7E7E;
+    --color-5: #425A53;
+    --color-6: #3E3E3E;
+    --color-7: #87A59C;
+    --color-8: #E1DFDA;
+    --color-9: #AAAAAA;
+    --color-10: #707070;
+    --color-10: #1E669A;
+
+
+    --primary-font: 'Spartan', sans-serif;
+    --secondary-font: 'Montserrat', sans-serif;
+    --main-text-color: #000;
+
+    --white-space: 1rem;
+}
+
+
+.section {
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+}
+
+.container {
+    width: 100%;
+    max-width: 120rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-top:5vw;
+
+}
+
+h5 {
+    font-family: 'Spartan', sans-serif;
+    color: #AAAAAA;
+    font-size: 15px;
+    padding-left: 1.5vw;
+}
+
+h2 {
+    font-family: 'Spartan', sans-serif;
+    color: #3E3E3E;
+    font-size: 26px;
+    margin-top: 3vw;
+
+}
+
+h1 {
+    font-family: 'Spartan', sans-serif;
+    color: #425A53;
+    font-size: 50px;
+    padding: 1vw;
+    padding-bottom: 2vw;
+
+}
+
+
+p {
+    font-family: 'Spartan', sans-serif;
+    color: #3E3E3E;
+    font-size: 20px;
+    padding: 1vw;
+    padding-bottom: 5vw;
+
+
+}
+
+
+button {
+     background-color: none;
+    border: 0.8px solid;
+    padding-top: 1vw;
+    border-radius: 25px;
+    padding-bottom: 1vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+    font-size: 1.1vw;
+    color: var(--color-11);
+
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+
+/*End global*/
+
+
+/*Start header*/
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 3fr;
+    margin-bottom: 2vw;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2vw;
+
+
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+    padding-top: 3vw;
+    color: var(--color-7);
+}
+
+
+ul a:hover {
+    color: var(--color-5);
+    border-bottom: 2px solid;
+    border-bottom-color: var(--color-5);
+
+
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--color-7);
+}
+
+
+/*End header*/
+
+/*Opening*/
+
+
+.logo {
+    align-items: center;
+    text-align: center;
+    height: 17vw;
+    padding-top:2vw;
+    padding-bottom:4vw;
+}
+
+
+.opening {
+    background-image: url(http://szmidaroos.dk/Yoga_Joy/mainbanner.png);
+    background-size: cover;
+    height: 35vw;
+    width: 100vw;
+    margin-bottom: 1vw;
+}
+
+
+/*End opening*/
+
+
+
+/*Start poses*/
+
+.poses .container {
+    display: flex;
+    flex-direction:row-reverse;
+    padding-left: 3vw;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5vw;
+}
+
+.poses_img {
+    flex: 1;
+    margin-right: 10rem;
+    margin-left: 6rem;
+    box-shadow: -20px 20px 0px 2px rgba(239,223,218,1);
+}
+
+
+
+.posesself_{
+
+    padding-left: 10vw;
+    padding-right: 5vw;
+}
+
+
+
+
+/*End poses*/
+
+
+
+/*Start about*/
+
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-gap: 10px;
+    color: #444;
+}
+
+.box {
+   background-color: #Ebe9e4;
+    color: green;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Spartan', sans-serif;
+
+}
+
+.about .container {
+    padding: 5vw;
+    background-color: #Ebe9e4;
+    text-align: center;
+}
+
+
+icon-container{
+    padding-bottom: 40vw;
+}
+
+
+/*End about*/
+
+/*Start classes*/
+
+.classes .container {
+    display: flex;
+    padding-left: 3vw;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5vw;
+}
+
+.classes_img {
+    flex: 1;
+    margin-right: 10rem;
+    margin-left: 6rem;
+    box-shadow: -20px 20px 0px 2px rgba(239,223,218,1);
+}
+
+.poses_{
+
+    padding-right: 25vw;
+}
+
+
+
+
+/*End classes*/
+
+
+
+/*Start footer*/
+
+footer {
+    border-top: 0.8px solid;
+    margin-top: 5vw;
+    display: flex;
+    padding: 2vw;
+    border-top-color: var(--color-8);
+    justify-content: center;
+}
+
+footer > p {
+    font-family:'Spartan', sans-serif;
+    font-size: 1vw;
+
+}
+
+/*End footer*/
+
+
+
