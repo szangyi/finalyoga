@@ -32,6 +32,7 @@
     --color-12: #F8F4F3;
     --color-13: #EBE9E4;
     --color-14: #BABABA;
+    --color-15: #6C9CAC;
 
 
 
@@ -294,7 +295,7 @@ h6 {
     background-color: var(--color-13);
     font-family: var(--secondary-font);
     padding: 4em 4em 2em 4em;
-    margin-bottom: 5em;
+    margin-top: 5em;
 }
 
 .learnmore_button {
@@ -308,7 +309,7 @@ h6 {
     font-family: var(--primary-font);
     text-transform: uppercase;
     font-size: 1.1vw;
-    color: var(--color-11);
+    color: var(--color-15);
     font-weight: 500;
     cursor: pointer;
     transition: 0.3s;
@@ -361,7 +362,7 @@ h6 {
 
 footer {
     border-top: 0.8px solid;
-    margin-top: 5vw;
+/*    margin-top: 5vw;*/
     display: flex;
     padding: 2vw;
     border-top-color: var(--color-8);
